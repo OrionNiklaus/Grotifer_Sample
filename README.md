@@ -30,3 +30,17 @@ Directs the operation of the actuators on the rotating booms.
 
 ### Task Coordinator
 Coordinates the timing and operations of the other tasks.
+
+# Key Points
+
+### Modular architecture: 
+estimation, control, actuators, sensors, and logging sit behind narrow, well-defined interfaces
+
+### Abstract interfaces: 
+real hardware and simulations swap without touching control logic
+
+### Real-time logging: 
+lock-free ring buffer with a dedicated logging thread to keep control-loop timing deterministic
+
+### Attitude determination: 
+sun-sensor + inclinometer TRIAD method documented in /docs
