@@ -6,6 +6,20 @@ In our work, we were able to demonstrate the three-dimensional controllability o
 
 <video src="https://github.com/user-attachments/assets/4fb844cc-0ef4-4873-8588-3f9f4d901125" controls></video>
 
+# Key Points
+
+### Modular architecture: 
+estimation, control, actuators, sensors, and logging sit behind narrow, well-defined interfaces
+
+### Abstract interfaces: 
+real hardware and simulations swap without touching control logic
+
+### Real-time logging: 
+lock-free ring buffer with a dedicated logging thread to keep control-loop timing deterministic
+
+### Attitude determination: 
+sun-sensor + inclinometer TRIAD method documented in /docs
+
 # Code organization
 
 ### docs
@@ -31,16 +45,3 @@ Directs the operation of the actuators on the rotating booms.
 ### Task Coordinator
 Coordinates the timing and operations of the other tasks.
 
-# Key Points
-
-### Modular architecture: 
-estimation, control, actuators, sensors, and logging sit behind narrow, well-defined interfaces
-
-### Abstract interfaces: 
-real hardware and simulations swap without touching control logic
-
-### Real-time logging: 
-lock-free ring buffer with a dedicated logging thread to keep control-loop timing deterministic
-
-### Attitude determination: 
-sun-sensor + inclinometer TRIAD method documented in /docs
