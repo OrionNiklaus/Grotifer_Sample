@@ -28,7 +28,7 @@ Directs the operation of the attitude control actuators
 ## Torp Control Task
 Directs the operation of the actuators on the rotating booms.
 
-# Task Coordinator
+## Task Coordinator
 Coordinates the timing and operations of the other tasks.
 
 Grotifer Satellite Project
