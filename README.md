@@ -22,16 +22,16 @@ sun-sensor + inclinometer TRIAD method documented in /docs
 
 # Code organization
 
-### docs
+### /docs
 Contains documentation for the project and a pdf detailing attitude control strategy.
 
-### external
+### /external
 Contains external hardware header files.
 
-### include
+### /include
 Contains all project header files.
 
-### src
+### /src
 Contains all project .cpp files.
 
 # Task Descriptions
