@@ -4,7 +4,7 @@ Research for the GROTIFER Project (funded by NASA's Heliophysics Technology and 
 
 In our work, we were able to demonstrate the three-dimensional controllability of a satellite prototype  under a constant steady-state torque from orthogonal rotating booms on a simulated weightless lab testbed.
 
-<video src="https://github.com/OrionNiklaus/Grotifer_Sample/raw/main/Grotifer_rendering.mov" controls></video>
+<video src="https://github.com/user-attachments/assets/4fb844cc-0ef4-4873-8588-3f9f4d901125" controls></video>
 
 # Code organization
 
